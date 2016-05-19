@@ -23,7 +23,7 @@ gm = gmail.GMail('my_username', 'my_password')
 gm.connect()
 
 base_url = 'http://sfbay.craigslist.org'
-url = base_url + '/search/sfc/apa?bedrooms=1&search_distance=1&s=0?min_price=2500&max_price=3000&bathrooms=1&postal=94103'
+url = base_url + '/search/sfc/apa?search_distance=1&postal=94103&min_price=2500&max_price=3000&bedrooms=1&bathrooms=1'
 
 # This will remove weird characters that people put in titles like ****!***!!!
 use_chars = string.ascii_letters + ''.join([str(i) for i in range(10)]) + ' '
